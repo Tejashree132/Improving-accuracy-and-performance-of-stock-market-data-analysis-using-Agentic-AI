@@ -1,0 +1,45 @@
+# Core Multi-Agent Framework
+crewai==1.8.1
+langgraph==0.2.34
+langchain==0.2.14
+langchain-core==0.2.43
+langchain-community==0.2.12
+langchain-text-splitters==0.2.2
+langsmith==0.1.142
+
+# LLM Provider
+openai==1.83.0
+litellm==1.35.0
+
+# Vector Store + Embeddings
+faiss-cpu==1.7.4
+sentence-transformers==2.7.0
+# transformers==4.41.2
+torch==2.3.1
+tokenizers==0.20.3
+
+# Financial & Data APIs
+yfinance==0.2.40
+newsapi-python==0.2.7
+requests==2.31.0
+pandas==2.2.2
+numpy==1.26.4
+
+# Document Processing (RAG)
+pypdfium2==4.30.0
+pdfplumber==0.11.4
+
+# Utilities
+python-dotenv==1.1.1
+RapidFuzz==3.9.6
+scikit-learn==1.5.1
+scipy==1.13.1
+tqdm==4.66.4
+
+# Server
+fastapi==0.110.0
+uvicorn==0.31.1
+
+# UI
+streamlit==1.36.0
+plotly==5.22.0

@@ -1,0 +1,48 @@
+{
+  "easy": [
+    { "query": "Get current price and P/E ratio for AAPL.", "expected": { "financial": "valid" } },
+    { "query": "Fetch the P/E ratio for MSFT only.", "expected": { "financial": "valid" } },
+    { "query": "What is the latest news headline sentiment for NVDA?", "expected": { "sentiment": "Bullish" } },
+    { "query": "Get the 52-week high for TSLA.", "expected": { "financial": "valid" } },
+    { "query": "What is the market cap of AMZN?", "expected": { "financial": "valid" } },
+    { "query": "Is Google (GOOGL) news sentiment bullish or bearish?", "expected": { "sentiment": "Bullish" } },
+    { "query": "Fetch revenue growth for META.", "expected": { "financial": "valid" } },
+    { "query": "What is the beta value for NFLX?", "expected": { "risk": "Medium" } },
+    { "query": "List recent headlines for AMD.", "expected": { "sentiment": "Neutral" } },
+    { "query": "What is the dividend yield for JPM?", "expected": { "financial": "valid" } },
+    { "query": "What is the current dividend yield for KO?", "expected": { "financial": "valid" } },
+    { "query": "Get the debt-to-equity ratio for Ford (F).", "expected": { "financial": "valid" } },
+    { "query": "Is the sentiment for Disney (DIS) currently positive?", "expected": { "sentiment": "Neutral" } },
+    { "query": "What is the profit margin for Oracle (ORCL)?", "expected": { "financial": "valid" } },
+    { "query": "Check the 50-day moving average for Salesforce (CRM).", "expected": { "financial": "valid" } },
+    { "query": "What is the current trading volume for Intel (INTC)?", "expected": { "financial": "valid" } },
+    { "query": "Fetch the latest EPS for Walmart (WMT).", "expected": { "financial": "valid" } },
+    { "query": "What is the forward P/E for Adobe (ADBE)?", "expected": { "financial": "valid" } },
+    { "query": "Show the institutional ownership percentage for Visa (V).", "expected": { "financial": "valid" } },
+    { "query": "What is the price-to-sales ratio for Uber (UBER)?", "expected": { "financial": "valid" } }
+  ],
+  "medium": [
+    { "query": "Analyze if NVDA's current price is sustainable.", "expected": { "financial": "valid" } },
+    { "query": "Is MSFT a safer investment than TSLA based on beta?", "expected": { "risk": "Low" } },
+    { "query": "Contrast revenue growth of AMZN and GOOGL.", "expected": { "financial": "valid" } },
+    { "query": "Does JPM or META have better news sentiment right now?", "expected": { "sentiment": "Neutral" } },
+    { "query": "Compare the profit margins of Visa (V) and Mastercard (MA).", "expected": { "financial": "valid" } },
+    { "query": "Between AMD and NVDA, which has higher price volatility?", "expected": { "risk": "High" } },
+    { "query": "Compare the dividend yields of Pepsi (PEP) and Coca-Cola (KO).", "expected": { "financial": "valid" } },
+    { "query": "Which stock has better cash flow: Cisco (CSCO) or IBM?", "expected": { "financial": "valid" } },
+    { "query": "Compare the 52-week price range of Netflix (NFLX) and Disney (DIS).", "expected": { "financial": "valid" } },
+    { "query": "Is Bitcoin (BTC-USD) more volatile than the SPY ETF?", "expected": { "risk": "High" } }
+  ],
+  "hard": [
+    { "query": "Based on company_reports.txt, extract the top 3 risk factors mentioned.", "expected": { "risk": "High" } },
+    { "query": "Identify the primary cost pressures described in the MD&A section of company_reports.txt.", "expected": { "financial": "valid" } },
+    { "query": "Summarize the ESG goals detailed in company_reports.txt.", "expected": { "sentiment": "Neutral" } },
+    { "query": "List any pending legal cases mentioned in company_reports.txt.", "expected": { "risk": "High" } },
+    { "query": "Calculate the current ratio based on the assets and liabilities in company_reports.txt.", "expected": { "financial": "valid" } },
+    { "query": "Is the cash runway sufficient based on the burn rate in company_reports.txt?", "expected": { "risk": "High" } },
+    { "query": "Identify the intangible asset risks mentioned in the PDF text.", "expected": { "risk": "High" } },
+    { "query": "Extract the executive bonus structure from the proxy data in company_reports.txt.", "expected": { "financial": "valid" } },
+    { "query": "Identify the DSO trends from the accounts receivable section of the report.", "expected": { "risk": "Medium" } },
+    { "query": "Analyze the impact of currency fluctuations on EMEA sales as described in the MD&A.", "expected": { "sentiment": "Neutral" } }
+  ]
+}

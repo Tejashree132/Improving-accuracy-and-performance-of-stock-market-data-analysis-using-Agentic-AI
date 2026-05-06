@@ -1,0 +1,4 @@
+Difficulty,Avg Accuracy,Avg Latency (s),Avg Fin Score
+easy,0.875,46.36875,5.0
+hard,0.8333333333333334,33.21333333333333,2.0
+medium,0.875,58.88125,5.0
